@@ -1,8 +1,10 @@
 {
   "name": "weweb-pdf-generator",
   "version": "1.0.0",
+  "main": "src/index.jsx", // Agrega esta línea
+  "module": "src/index.jsx", // Agrega esta línea para soporte de ES Modules
   "dependencies": {
-    "jspdf": "^2.5.1",
-    "react": "^18.0.0"
+    "jspdf": "2.5.1",
+    "react": "18.0.0"
   }
 }
